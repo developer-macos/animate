@@ -1,0 +1,18 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+    transition-property: background-color, transform;
+    transition-duration: 900ms;
+}
+
+.box:hover{
+    background-color: aqua;
+    transform: rotate(180deg);
+    position: relative;
+}
+
+.hidden-text{
+   overflow: hidden;
+}
